@@ -3,7 +3,9 @@ import StoryCircle from '../../Components/Story/StoryCircle'
 import HomeRight from '../../Components/HomeRight/HomeRight'
 import PostCard from '../../Components/Post/PostCard'
 
+
 function HomePage() {
+    
     return (
         <div>
         <div className='mt-10 flex w-[100%] justify-center'>
@@ -19,6 +21,7 @@ function HomePage() {
                 <HomeRight/>
             </div>
         </div>
+        
         </div>
     )
 }
